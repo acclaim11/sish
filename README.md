@@ -169,6 +169,7 @@ Usage of ./sish:
   -sish.whitelistedips string
         A comma separated list of whitelisted ips
 ```
+搭建教程
 
 说明：sish是一个SSH服务器，仅用于远程端口转发，可以快速将本地端口暴露在外网，作者声称其为Servo/Ngrok替代方案，仅使用SSH的HTTP(S)、WS(S)、TCP隧道连接到他们的localhost服务器，该工具和Servo差不多一样，不同就是Servo官方提供了免费的SSH客户端，而sish作者提供的客户端貌似因为滥用关闭了，所以就需要我们自己搭建了，这里就水下Docker和手动安装。
 
